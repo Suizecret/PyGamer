@@ -104,7 +104,7 @@ class GUI:
     def number_guesser_game(self):
         # Refactor the Window #
         self.root.title("Number Guesser")
-        self.root.geometry("500x500")
+        self.root.geometry("300x200")
         self.mainframe.destroy()
 
         # Create and Add new UI Elements #
@@ -176,7 +176,7 @@ class GUI:
         # Create The Window #
         self.root = Tk()
         self.root.title("Python Gamer")
-        self.root.geometry("550x550")
+        self.root.geometry("300x200")
 
         # Create the Mainframe #
         self.mainframe = ttk.Frame(self.root, padding="3 3 12 12")
@@ -220,6 +220,8 @@ class GUI:
 
         # Starting the Main Loop #
         self.root.mainloop()
+
+
 if __name__ == "__main__":
     gameGui = GUI()
     gameGui.start()
