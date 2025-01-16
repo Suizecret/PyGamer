@@ -154,7 +154,7 @@ class GUI:
             text="Back",
             width=15,
             command=lambda: self.start()
-        ).grid(column=1, row=3, sticky=S)
+        ).grid(column=1, row=4, sticky=S)
 
     def ng_game_round(self, win):
             if win:
